@@ -12,7 +12,7 @@ export default function Home() {
       <div id="skills"><About/></div>
       <div id="projects"><ProjectsSection/></div>
       <div id="contact"><Contact/></div>
-      <div className="absolute bottom-0 right-20"><a href="#introduction"><i className='bx bxs-up-arrow-circle text-4xl mb-5 hover:bg-white hover:text-black rounded-full cursor-pointer duration-300' ></i></a></div>
+      <div className="fixed bottom-0 right-20"><a href="#introduction"><i className='bx bxs-up-arrow-circle text-4xl mb-5 hover:bg-white hover:text-black rounded-full cursor-pointer duration-300' ></i></a></div>
     </div>
   );
 }
